@@ -1,0 +1,15 @@
+version: 0.2
+
+env:
+  variables:
+    NODE_ENV: "production"
+
+phases:
+  post_build:
+    commands:
+      - aws s3 cp . s3://benja.design-www --recursive
+      - aws cloudfront create-invalidation --distribution-id EGI8PUJ7H41Z0 --paths "/*"
+
+artifacts:
+  files:
+    - .*
