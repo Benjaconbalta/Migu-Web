@@ -402,6 +402,8 @@ button img{
 
 .unodostres-desc p{
     margin: 24px 0;
+    font-size: 28px;
+    font-weight: 500;
 }
 
 .ui{
@@ -409,6 +411,7 @@ button img{
     -webkit-box-shadow: 9px -6px 43px -6px rgba(0,0,0,0.2);
     -moz-box-shadow: 9px -6px 43px -6px rgba(0,0,0,0.2);
     box-shadow: 9px -6px 43px -6px rgba(0,0,0,0.2);
+    border-radius: 8px;
 }
 
 .benefits{
@@ -680,6 +683,10 @@ button img{
     .whytwo{
         display: inline-block;
         max-width: 100%;
+        margin: 0;
+    }
+
+    .whytwo h2{
         text-align: center;
     }
 
