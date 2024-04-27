@@ -9,7 +9,7 @@
     --fg-color-shade: #392E59;
     --secondary-color: #FF5F5F;
     --dark-bg: #222;
-    --buttons: #EAEAEA;
+    --buttons: #F3F5FA;
     --bg: #FAFAFA;
     --bg-dos: #F9F2E0;
 }
@@ -115,15 +115,19 @@ button img{
 .nav{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    margin: 0 64px 0 24px;
+    align-items: center;
+    margin: 16px 64px 0 24px;
 }
 
-.nav-dos{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin: 24px 64px 0 24px;
+.tabs a{
+    font-size: 20px;
+    font-weight: 400; 
+    margin: 0 40px;
+    border-radius: 99px;
+}
+
+#active{
+    font-weight: 700;
 }
 
 .logo{
@@ -156,6 +160,12 @@ button img{
     width: 100%;
     max-width: 800px;
     margin: 0 0 0 40px;
+}
+
+.hero-cta-vet{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 40px 0 0;
 }
 
 .hero-cta p{
@@ -445,6 +455,16 @@ button img{
     background-color: var(--primary-color);
 }
 
+.clinica{
+    padding: 120px;
+    text-align: center;
+}
+
+.clinica .btn-primary{
+    width: auto;
+    margin: 0 auto;
+}
+
 .download h2{
     color: white;
 }
@@ -553,6 +573,29 @@ button img{
     margin: 120px 0;
 }
 
+.whythree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 10%;
+    margin: 120px 0;
+}
+
+.vet-beneficios{
+    width: 45%;
+    margin-right: 80px;
+}
+
+.beneficio{
+    margin-bottom: 80px;
+
+}
+
+.checks{
+    width: 50%;
+}
+
 .why p{
     max-width: 700px;
 }
@@ -593,8 +636,86 @@ button img{
     display: block;
 }
 
+.credibilidad{
+    display: flex;
+    width: 100%;
+}
+
+.credi-desc{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.credi-desc img{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.zz{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 15%;
+    background-color:#FEF9EE ;
+    border-radius: 24px;
+    height: 450px;
+}
+
+.zz-desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 220px 0;
+    padding: 0 10%;
+}
+
+#left{
+    margin: 0 0 0 80px;
+}
+
+#right{
+    margin: 0 80px 0 0;
+}
+
+.zz-text{
+    width: 50%;
+}
+
+.img-bg{
+    width: 50%;
+    background-color: var(--bg-dos);
+    border-radius: 24px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zz-desc img{
+    width: 35%;
+    
+}
+
 .anuncio-beta{
     margin: 24px 0;
+}
+
+.centro{
+    text-align: center;
+    padding: 120px 10%;
+    background-color: var(--buttons);
+}
+
+.centro p{
+padding: 0 12%;
+}
+
+.centro img{
+    width: 60%;
+    margin: 0 auto;
 }
 
 .footer{
