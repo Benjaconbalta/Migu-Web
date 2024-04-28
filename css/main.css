@@ -616,6 +616,11 @@ button img{
 .digitaliza{
     text-align: center;
     margin: 120px 0 80px 0;
+    padding: 0 10%;
+}
+
+.digitaliza img{
+    width: 70%;
 }
 
 .check{
@@ -694,9 +699,19 @@ button img{
     align-items: center;
 }
 
+#show{
+    display: none;
+}
+
+#hide{
+    display: flex;
+}
+
 .zz-desc img{
     width: 35%;
-    
+    -webkit-box-shadow: 9px -6px 43px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 9px -6px 43px -6px rgba(0,0,0,0.2);
+    box-shadow: 9px -6px 43px -6px rgba(0,0,0,0.2);
 }
 
 .anuncio-beta{
@@ -714,7 +729,7 @@ padding: 0 12%;
 }
 
 .centro img{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -768,9 +783,32 @@ padding: 0 12%;
         font-size: 48px;
     }
 
+    .nav{
+        justify-content: unset;
+    }
+
+    .tabs{
+        max-width: 59px;
+        display: flex;
+    }
+
+    .tabs a{
+        margin: 0 24px;
+    }
+
+    .menu__btn{
+        top: 32px;
+    }
+
     .hero{
         display: inline-block;
-        width: 100%
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    .hero-cta-vet{
+        text-align: center;
     }
 
     .hero-cta{
@@ -818,9 +856,89 @@ padding: 0 12%;
         margin-bottom: 24px;
     }
 
+    .whythree{
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .checks{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .beneficio{
+        margin-bottom: 40px;
+    }
+
+    .credibilidad{
+        display: inline-block;
+        margin: 0;
+    }
+
+    .credi-desc{
+        width: 90%;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .zz-desc{
+        display: inline;
+        text-align: center;
+    }
+
+    .zz-desc img{
+        width: 50%;
+    }
+
+    .zz-text{
+        width: 80%;
+    }
+
+    #hide{
+        display: none;
+    }
+
+    #show{
+        display: flex;
+    }
+
+    #right{
+        margin: 40px auto;
+    }
+
+    #right img{
+        display: none;
+    }
+
+    #left{
+        margin: 40px auto;
+    }
+
+    .img-bg{
+        margin: 80px auto 150px;
+        width: 90%;
+    }
+
     .digitaliza{
-        margin: 80px 0 64px 0;
+        margin: 40px 0;
         padding: 0 10%;
+    }
+
+    .digitaliza img{
+        width: 100%;
+    }
+
+    .centro{
+        padding: 80px 10%
+    }
+
+    .centro img{
+        width: 100%;
+    }
+
+    .clinica{
+        padding: 40px 10%;
     }
 
     .miguvid{
@@ -831,13 +949,18 @@ padding: 0 12%;
         height: 570px;
     }
 
-    .checks{
-        margin: 40px 0 0 0;
+    .vet-beneficios{
+        width: 90%;
+        margin: 24px auto;
     }
 
     .check img{
         width: 24px;
         margin: 0;
+    }
+
+    #margin-top{
+        margin-top: 40px;
     }
 
     .check p{
@@ -858,7 +981,7 @@ padding: 0 12%;
     }
 
     .ui{
-        width: 80%;
+        width: 70%;
     }
 
     .testi-uno{
