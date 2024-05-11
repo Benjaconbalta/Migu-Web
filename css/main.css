@@ -90,14 +90,14 @@ mark {
 .btn-secondary{
     border-radius: 8px;
     padding: 16px 16px;
-    background-color: var(--bg);
+    background-color: transparent;
     border: 2px solid var(--primary-color);
     width: 100%;
     font-size: 20px;
 }
 
 .btn-secondary:hover{
-    background-color: var(--bg-dos);
+    background-color: rgba(0, 0, 0, .03);
 }
 
 .btn-sm{
@@ -263,7 +263,7 @@ button img{
     top: 0;
     right: -100%; /* Changed from left: -100% */
 
-    width: 300px;
+    width: 60%;
     height: 100%;
 
     margin: 0;
@@ -279,12 +279,10 @@ button img{
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
+    padding: 32px 32px;
 
     color: var(--fg-color);
-
-    font-family: "Baloo 2", sans-serif;
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 600;
 
     text-decoration: none;
@@ -292,7 +290,7 @@ button img{
     transition-duration: .25s;
 }
 .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: rgba(0, 0, 0, .01);
 }
 
   /*end hamburger menu*/
@@ -766,6 +764,45 @@ padding: 0 12%;
     margin: 0 auto;
 }
 
+.planes{
+    display: flex;
+    width: 90%;
+    margin: 80px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plan{
+    width: 33%;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--buttons);
+    border-radius: 24px;
+}
+
+.plan p{
+    margin: 4px 0;
+}
+
+#plan-fav{
+    margin: 0 16px;
+    background-color: var(--bg-dos);
+}
+
+#plan-fav .plan-detalle{
+    margin: 72px 0;
+}
+
+.plan-detalle{
+    margin: 48px 0;
+}
+
+.plan button{
+    width: 100% !important;
+}
+
 .footer{
     display: inline-block;
     width: 100%;
@@ -821,7 +858,6 @@ padding: 0 12%;
     }
 
     .tabs{
-        max-width: 59px;
         display: flex;
     }
 
@@ -831,6 +867,10 @@ padding: 0 12%;
 
     .menu__btn{
         top: 32px;
+    }
+
+    .menu__box{
+        width: 90%;
     }
 
     .hero{
@@ -1048,6 +1088,21 @@ padding: 0 12%;
     .bene-desc{
         margin: 24px 0 24px 0;
         width: 100%;
+    }
+
+    .planes{
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .plan{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #plan-fav{
+        margin: 16px 0;
     }
 
     .footer-content{
